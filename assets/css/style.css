@@ -1,0 +1,16 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: salmon;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 20px;
+    transition: all 1s;
+
+}
+
+div:hover{
+    transform: rotate(90deg) scale(2);
+    transform-origin:left bottom;
+}
+
